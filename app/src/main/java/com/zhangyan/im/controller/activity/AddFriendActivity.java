@@ -13,6 +13,10 @@ import com.zhangyan.im.databinding.ActivityAddFriendBinding;
 import com.zhangyan.im.model.Model;
 import com.zhangyan.im.model.bean.UserInfo;
 
+/**
+ * 添加好友Activity
+ */
+
 public class AddFriendActivity extends BaseActivity {
 
     private ActivityAddFriendBinding binding;
