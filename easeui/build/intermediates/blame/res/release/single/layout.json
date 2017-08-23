@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_chat_menu_item.xml",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_chat_menu_item.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_fragment_chat.xml",
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_fragment_chat.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_chat_menu_item.xml",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_chat_menu_item.xml"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_expression_gridview.xml",
@@ -40,12 +40,12 @@
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_commom_back_btn.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_voice_recorder.xml",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_widget_voice_recorder.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_voice_recorder.xml",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_widget_voice_recorder.xml"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_layout_emojicon_menu.xml",

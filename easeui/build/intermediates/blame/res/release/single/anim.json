@@ -24,24 +24,24 @@
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\push_top_in.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\head_in.xml",
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\head_in.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\voice_from_icon.xml",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\voice_from_icon.xml"
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\push_top_out2.xml",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\push_top_out2.xml"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in.xml",
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\push_bottom_in.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\push_top_out2.xml",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\push_top_out2.xml"
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\voice_from_icon.xml",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\anim\\voice_from_icon.xml"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",

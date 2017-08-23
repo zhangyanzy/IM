@@ -16,16 +16,16 @@
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_dx_checkbox_off.png"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ee_27.png",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ee_27.png"
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_input_bar_bg_normal.9.png"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_to_group_details_normal.png",
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_to_group_details_normal.png"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_input_bar_bg_normal.9.png"
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ee_27.png",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ee_27.png"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ee_30.png",
@@ -48,12 +48,12 @@
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ee_28.png"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_settings_normal.png",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_settings_normal.png"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_record_animate_12.png",
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_record_animate_12.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_settings_normal.png",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable-hdpi\\ease_settings_normal.png"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ease_chatto_voice_playing.png",

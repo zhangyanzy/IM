@@ -31,8 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         public void onClick(View view) {
             switch (view.getId()) {
                 case R.id.regist_btn:
-//                    Toast.makeText(getApplicationContext(), "注册成功", Toast.LENGTH_SHORT).show();
-                    regist();
+                    register();
                     break;
                 case R.id.login_btn:
                     login();
@@ -46,12 +45,12 @@ public class LoginActivity extends AppCompatActivity {
     /**
      * 注册
      */
-    private void regist() {
+    private void register() {
         //获取用户输入的用户名和密码
-        final String registName = binding.userNameEdit.getText().toString();
-        final String registPaw = binding.userPawEdit.getText().toString();
+        final String registerName = binding.userNameEdit.getText().toString();
+        final String registerPaw = binding.userPawEdit.getText().toString();
         //校验输入的用户名和密码
-        if (TextUtils.isEmpty(registName) || TextUtils.isEmpty(registPaw)) {
+        if (TextUtils.isEmpty(registerName) || TextUtils.isEmpty(registerPaw)) {
             Toast.makeText(getApplicationContext(), "用户名或者密码不能为空", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -60,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    EMClient.getInstance().createAccount(registName, registPaw);
+                    EMClient.getInstance().createAccount(registerName, registerPaw);
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -121,7 +120,7 @@ public class LoginActivity extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                Toast.makeText(getApplicationContext(),"登录失败",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "登录失败", Toast.LENGTH_SHORT).show();
                             }
                         });
                     }

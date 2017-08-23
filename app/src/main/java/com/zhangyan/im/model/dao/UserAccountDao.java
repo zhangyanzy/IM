@@ -14,6 +14,7 @@ import com.zhangyan.im.model.db.UserAccountDB;
  */
 
 public class UserAccountDao {
+
     private UserAccountDB mHelper;
 
     public UserAccountDao(Context context) {

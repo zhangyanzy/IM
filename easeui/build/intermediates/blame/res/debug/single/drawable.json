@@ -64,12 +64,12 @@
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\drawable\\ease_chat_image_selector.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_type_select_btn.xml",

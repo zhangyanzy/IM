@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="presenter"
+            type="com.zhangyan.im.controller.activity.AddFriendActivity.Presenter" />
+    </data>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.zhangyan.im.controller.activity.AddFriendActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/title_add_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:text="添加联系人"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/search_contact_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/title_add_activity"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="@{presenter.onClick}"
+                android:text="查找"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_username_add_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp" />
+
+        <RelativeLayout
+            android:id="@+id/search_contact_item"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/photo_add_activity"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="10dp"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/username_add_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/photo_add_activity"
+                android:text="zhangyan"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/add_add_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="添加"
+                android:onClick="@{presenter.onClick}"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>
+

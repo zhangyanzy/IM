@@ -29,9 +29,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".controller.activity.MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
 
         <!-- 设置环信应用的AppKey -->
         <meta-data
@@ -71,6 +69,7 @@
         <activity
             android:name=".controller.activity.LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".controller.activity.AddFriendActivity"></activity>
     </application>
 
 </manifest>

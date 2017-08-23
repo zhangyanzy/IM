@@ -43,7 +43,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //要获取当前用户的登录信息，存储在数据库中
-                //TODO 获取当前用户登录信息
+                //hTODO 获取当前用户登录信息
 
                 //通过服务器判断是否已经登录过，由于没有服务器，就从环信服务器进行判断
                 if (EMClient.getInstance().isLoggedInBefore()) {

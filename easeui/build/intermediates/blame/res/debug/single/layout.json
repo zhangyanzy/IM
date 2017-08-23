@@ -196,12 +196,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
-        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_conversation_item.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice_call.xml",
         "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_row_received_voice_call.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
+        "source": "D:\\WorkSpace\\IM\\easeui\\src\\main\\res\\layout\\ease_conversation_item.xml"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",

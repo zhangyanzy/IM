@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e6f24aad71bd1af37dbe55dc3d4020c4f6bf2444\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\WorkSpace\\IM\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
