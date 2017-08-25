@@ -10,6 +10,7 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.EaseUI;
 import com.zhangyan.im.R;
 import com.zhangyan.im.model.Model;
+import com.zhangyan.im.model.bean.UserInfo;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -46,15 +47,30 @@ public class SplashActivity extends AppCompatActivity {
                 //hTODO 获取当前用户登录信息
 
                 //通过服务器判断是否已经登录过，由于没有服务器，就从环信服务器进行判断
-                if (EMClient.getInstance().isLoggedInBefore()) {
-                    //登录过
-                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-                    startActivity(intent);
-                } else {
-                    //没有登录过
+                if (EMClient.getInstance().isLoggedInBefore()) {// 登录过
+
+                    // 获取到当前登录用户的信息
+                    UserInfo account = Model.getInstance().getUserAccountDao().getAccountByHxid(EMClient.getInstance().getCurrentUser());
+
+                    if (account == null) {
+                        // 跳转到登录页面
+                        Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+                        startActivity(intent);
+                    } else {
+                        // 登录成功后的方法
+                        Model.getInstance().loginSuccess(account);
+
+                        // 跳转到主页面
+                        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                        startActivity(intent);
+                    }
+                } else {// 没登录过
+                    // 跳转到登录页面
                     Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                     startActivity(intent);
                 }
+
+                // 结束当前页面
                 finish();
             }
         });

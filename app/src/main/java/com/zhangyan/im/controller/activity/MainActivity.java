@@ -20,8 +20,6 @@ public class MainActivity extends BaseActivity {
 
     private ActivityMainBinding binding;
 
-
-
     private ChatFragment mChatFragment;
     private ContactListFragment mContactListFragment;
     private SettingFragment mSettingFragment;

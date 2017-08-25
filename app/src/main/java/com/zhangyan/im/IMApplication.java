@@ -1,6 +1,7 @@
 package com.zhangyan.im;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.hyphenate.chat.EMOptions;
 import com.hyphenate.easeui.EaseUI;
@@ -11,6 +12,8 @@ import com.zhangyan.im.model.Model;
  */
 
 public class IMApplication extends Application {
+
+    private static Context mContext;
 
     @Override
     public void onCreate() {
@@ -25,5 +28,12 @@ public class IMApplication extends Application {
 
         //初始化数据模型层  Model
         Model.getInstance().init(this);
+        //初始化全局上下文
+        mContext = this;
+    }
+
+    //全局上下文对象
+    public static Context getGlobalApplication() {
+        return mContext;
     }
 }

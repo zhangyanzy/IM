@@ -7,30 +7,39 @@ package com.zhangyan.im.model.bean;
 
 public class InvationInfo {
 
+    private UserInfo user;          // 联系人
+    private GroupInfo group;        // 群组
 
-    private UserInfo userInfo;
-    private GroupInfo groupInfo;
+    private String reason;          // 邀请原因
 
+    private InvitationStatus status;// 邀请的状态
 
-    private String reason;
-    //枚举
-    private InvitationStatus status;
+    public InvationInfo() {
 
-
-    public UserInfo getUserInfo() {
-        return userInfo;
     }
 
-    public void setUserInfo(UserInfo userInfo) {
-        this.userInfo = userInfo;
+    public InvationInfo(UserInfo user, GroupInfo group, String reason, InvitationStatus status) {
+        this.user = user;
+        this.group = group;
+        this.reason = reason;
+        this.status = status;
     }
 
-    public GroupInfo getGroupInfo() {
-        return groupInfo;
+
+    public UserInfo getUser() {
+        return user;
     }
 
-    public void setGroupInfo(GroupInfo groupInfo) {
-        this.groupInfo = groupInfo;
+    public void setUser(UserInfo user) {
+        this.user = user;
+    }
+
+    public GroupInfo getGroup() {
+        return group;
+    }
+
+    public void setGroup(GroupInfo group) {
+        this.group = group;
     }
 
     public String getReason() {
@@ -49,34 +58,11 @@ public class InvationInfo {
         this.status = status;
     }
 
-    public InvationInfo(UserInfo userInfo, GroupInfo groupInfo, String reason, InvitationStatus status) {
-        this.userInfo = userInfo;
-        this.groupInfo = groupInfo;
-        this.reason = reason;
-        this.status = status;
-    }
-
-    public InvationInfo() {
-
-    }
-
-    @Override
-    public String toString() {
-        return "InvationInfo{" +
-                "userInfo=" + userInfo +
-                ", groupInfo=" + groupInfo +
-                ", reason='" + reason + '\'' +
-                ", status=" + status +
-                '}';
-    }
-
-    public enum InvitationStatus {
-        /**
-         * 联系人邀请信息状态
-         */
-        NEW_INVITE,//新邀请
+    public enum InvitationStatus{
+        // 联系人邀请信息状态
+        NEW_INVITE,// 新邀请
         INVITE_ACCEPT,//接受邀请
-        INVITE_ACCEPT_BY_PEER,//邀请被接受
+        INVITE_ACCEPT_BY_PEER,// 邀请被接受
 
         // --以下是群组邀请信息状态--
 
@@ -111,5 +97,14 @@ public class InvationInfo {
         GROUP_APPLICATION_DECLINED
     }
 
+    @Override
+    public String toString() {
+        return "InvationInfo{" +
+                "user=" + user +
+                ", group=" + group +
+                ", reason='" + reason + '\'' +
+                ", status=" + status +
+                '}';
+    }
 
 }

@@ -13,7 +13,8 @@ import com.zhangyan.im.model.dao.InviteTable;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    public DBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+
+    public DBHelper(Context context, String name) {
         super(context, name, null, 1);
     }
 

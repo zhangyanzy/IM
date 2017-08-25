@@ -2,7 +2,9 @@ package com.zhangyan.im.model;
 
 import android.content.Context;
 
+import com.zhangyan.im.model.bean.UserInfo;
 import com.zhangyan.im.model.dao.UserAccountDao;
+import com.zhangyan.im.model.db.DBManger;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
@@ -19,6 +21,8 @@ public class Model {
     private ExecutorService executors = Executors.newCachedThreadPool();
 
     private UserAccountDao userAccountDao;
+
+    private DBManger dbManger;
 
     //创建对象
     private static Model model = new Model();
@@ -39,6 +43,8 @@ public class Model {
         mContext = context;
         //创建用户账号数据操的操作类对象
         userAccountDao = new UserAccountDao(mContext);
+        //开启全局监听
+        new EventListener(mContext);
 
     }
 
@@ -52,13 +58,25 @@ public class Model {
     /**
      * 用户登录成功后的处理方法
      */
-    public void loginSuccess() {
+    public void loginSuccess(UserInfo account) {
+        if (account == null) {
+            return;
+        }
+        if (dbManger != null) {
+            dbManger.close();
+        }
+        dbManger = new DBManger(mContext, account.getName());
 
     }
+
+    public DBManger getDbManger() {
+        return dbManger;
+    }
+
     /**
      * 获取用户账号数据的操作类对象
      */
-    public UserAccountDao getUserAccountDao(){
+    public UserAccountDao getUserAccountDao() {
         return userAccountDao;
     }
 
